@@ -1,4 +1,4 @@
-package com.exercise.springbootlibrary.dao;
+package com.exercise.springbootlibrary.repositories;
 
 import com.exercise.springbootlibrary.entity.Review;
 import org.springframework.data.domain.Page;

@@ -3,6 +3,7 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 import './App.css';
 import { BookCheckoutPage } from './layouts/BookCheckoutPage/BookCheckoutPage';
 import { HomePage } from './layouts/HomePage/HomePage';
+import { LoginPage } from './layouts/LoginPage/LoginPage';
 import { Footer } from './layouts/NavbarAndFooter/Footer';
 import { Navbar } from './layouts/NavbarAndFooter/Navbar';
 import { SearchBooksPage } from './layouts/SearchBooksPage/SearchBooksPage';
@@ -24,6 +25,9 @@ export const App = () => {
           </Route>
           <Route path='/checkout/:bookId'>
             <BookCheckoutPage></BookCheckoutPage>
+          </Route>
+          <Route path='/login'>
+            <LoginPage/>
           </Route>
         </Switch>
       </div>

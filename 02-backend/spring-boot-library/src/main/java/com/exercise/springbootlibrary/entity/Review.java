@@ -20,7 +20,7 @@ public class Review {
     @CreationTimestamp
     private Date date;
     @Column
-    private double ration;
+    private double rating;
     @Column(name = "book_id")
     private Long bookId;
     @Column(name = "review_description")
